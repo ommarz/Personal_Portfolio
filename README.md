@@ -1,12 +1,11 @@
-<a name="readme-top"></a>
-
+`<a name="readme-top"></a>`
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Personal Portfolio: Omar Gutierrez</b></h3>
+<h3><b>Personal Portfolio: Omar Gutierrez</b></h3>
 
 </div>
 
@@ -36,15 +35,13 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Personal_Portfolio] <a name="about-project"></a>
-
+# 📖 [Personal_Portfolio] `<a name="about-project"></a>`
 
 **[Personal_Portfolio]** is a personal project to show my skills as a Software Developer
 
-## 🛠 Built With <a name="built-with"></a>
+## 🛠 Built With `<a name="built-with"></a>`
 
-### Tech Stack <a name="tech-stack"></a>
-
+### Tech Stack `<a name="tech-stack"></a>`
 
 <details>
   <summary>Client</summary>
@@ -69,8 +66,7 @@
 
 <!-- Features -->
 
-### Key Features <a name="key-features"></a>
-
+### Key Features `<a name="key-features"></a>`
 
 - **[Toolbar]**
 - **[Headline_Section]**
@@ -80,8 +76,7 @@
 
 <!-- GETTING STARTED -->
 
-## 💻 Getting Started <a name="getting-started"></a>
-
+## 💻 Getting Started `<a name="getting-started"></a>`
 
 To get a local copy up and running, follow these steps.
 
@@ -97,32 +92,27 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-
-
 ```sh
   cd my-folder
   git clone https://github.com/ommarz/Personal_Portfolio.git
   cd Personal_Portfolio
 ```
 
-
 ### Install
 
 Install linters using:
-
 
 ```sh
   git init
   git clone https://github.com/ommarz/linters-config.git
 ```
 
-
 ### Usage
 
 To run the project, execute the following command:
 
-
-```Double click on the index file (index.html)
+```apache
+Double click on index file
 ```
 
 ### Run tests
@@ -132,24 +122,24 @@ To run tests, run the following command:
 ```sh
   N/A
 ```
+
 --->
 
 ### Deployment
 
 You can deploy this project using:
 
-
 ```sh
   Any web browser
 ```
+
  -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
-
+## 👥 Authors `<a name="authors"></a>`
 
 👤 **Author1**
 
@@ -161,18 +151,17 @@ You can deploy this project using:
 
 <!-- FUTURE FEATURES -->
 
-## 🔭 Future Features <a name="future-features"></a>
+## 🔭 Future Features `<a name="future-features"></a>`
 
-
--  **[Toolbar]**
--  **[My_Recent_Works]**
--  **[About_Me]**
+- **[Toolbar]**
+- **[My_Recent_Works]**
+- **[About_Me]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
-## 🤝 Contributing <a name="contributing"></a>
+## 🤝 Contributing `<a name="contributing"></a>`
 
 Contributions, issues, and feature requests are welcome!
 
@@ -182,7 +171,7 @@ Feel free to check the [issues page](../../issues/).
 
 <!-- SUPPORT -->
 
-## ⭐️ Show your support <a name="support"></a>
+## ⭐️ Show your support `<a name="support"></a>`
 
 If you like this project gve it a star!
 
@@ -190,7 +179,7 @@ If you like this project gve it a star!
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+## 🙏 Acknowledgments `<a name="acknowledgements"></a>`
 
 I would like to thank Microverse and my partners for the experience
 
@@ -198,13 +187,11 @@ I would like to thank Microverse and my partners for the experience
 
 <!-- FAQ (optional) -->
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
+## ❓ FAQ (OPTIONAL) `<a name="faq"></a>`
 
 - **[What_is_this_project_about?]**
 
   - [It is about showing Software Development Skills]
-
 - **[How_is_it_built?]**
 
   - [It is built using HTML and CSS]
@@ -213,9 +200,8 @@ I would like to thank Microverse and my partners for the experience
 
 <!-- LICENSE -->
 
-## 📝 License <a name="license"></a>
+## 📝 License `<a name="license"></a>`
 
 This project is [MIT](./MIT.md) licensed.
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
