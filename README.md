@@ -1,4 +1,3 @@
-
 <h3><b>Personal Portfolio: Omar Gutierrez</b></h3>
 
 </div>
@@ -125,7 +124,6 @@ You can deploy this project using:
   Any web browser
 ```
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
@@ -136,7 +134,7 @@ You can deploy this project using:
 
 - GitHub: [@ommarz](https://github.com/ommarz)
 - Twitter: [@ommarz](https://twitter.com/ommarz)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/omar-gutierrez-arias-b41205273/)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/ommarz)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
