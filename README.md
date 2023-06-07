@@ -1,9 +1,3 @@
-`<a name="readme-top"></a>`
-
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
 
 <h3><b>Personal Portfolio: Omar Gutierrez</b></h3>
 
@@ -111,8 +105,8 @@ Install linters using:
 
 To run the project, execute the following command:
 
-```apache
-Double click on index file
+```sh
+  Double click on index file
 ```
 
 ### Run tests
@@ -123,8 +117,6 @@ To run tests, run the following command:
   N/A
 ```
 
---->
-
 ### Deployment
 
 You can deploy this project using:
@@ -133,7 +125,6 @@ You can deploy this project using:
   Any web browser
 ```
 
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
