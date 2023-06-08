@@ -36,7 +36,7 @@ body {
 
 .greeting {
   color: #ff6b00;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -45,19 +45,19 @@ body {
 
 .presentation {
   color: #fff5e1;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
-    /* or 133% */
+  /* or 133% */
   display: flex;
   align-items: center;
 }
 
 .description {
   color: white;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
