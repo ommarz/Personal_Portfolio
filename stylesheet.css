@@ -45,33 +45,33 @@ body {
 }
 
 .presentation {
-  color:#FFF5E1;
+  color: #FFF5E1;
   font-family:'Roboto';
-  font-style:normal;
-  font-weight:700;
-  font-size:24px;
-  line-height:32px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
   /* or 133% */
-  display:flex;
-  align-items:center;
+  display: flex;
+  align-items: center;
 }
 
 .description {
-  color:#FFFFFF;
+  color: #FFFFFF;
   font-family:'Poppins';
-  font-style:normal;
-  font-weight:400;
-  font-size:16px;
-  line-height:24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .socials {
-  display:flex;
-  width:200px;
-  flex-direction:row;
-  align-self:flex-start;
-  align-items:center;
-  justify-content:space-around;
-  flex:1 1 auto;
-  /*gap: 12px;*/
+  display: flex;
+  width: 200px;
+  flex-direction: row;
+  align-self: flex-start;
+  align-items: center;
+  justify-content: space-around;
+  flex: 1 1 auto;
+  /* gap: 12px; */
 }
