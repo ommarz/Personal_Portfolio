@@ -1,6 +1,9 @@
+
 <h3><b>Personal Portfolio: Omar Gutierrez</b></h3>
 
+
 </div>
+
 
 <!-- TABLE OF CONTENTS -->
 
@@ -28,13 +31,13 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Personal_Portfolio] `<a name="about-project"></a>`
+# 📖 [Personal_Portfolio] 
 
 **[Personal_Portfolio]** is a personal project to show my skills as a Software Developer
 
-## 🛠 Built With `<a name="built-with"></a>`
+## 🛠 Built With 
 
-### Tech Stack `<a name="tech-stack"></a>`
+### Tech Stack
 
 <details>
   <summary>Client</summary>
@@ -43,6 +46,7 @@
   </ul>
 </details>
 
+
 <details>
   <summary>Server</summary>
   <ul>
@@ -50,12 +54,14 @@
   </ul>
 </details>
 
+
 <details>
 <summary>Database</summary>
   <ul>
     <li><a href=></a></li>
   </ul>
 </details>
+
 
 <!-- Features -->
 
@@ -67,9 +73,10 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
 <!-- GETTING STARTED -->
 
-## 💻 Getting Started `<a name="getting-started"></a>`
+## 💻 Getting Started
 
 To get a local copy up and running, follow these steps.
 
@@ -124,11 +131,13 @@ You can deploy this project using:
   Any web browser
 ```
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- AUTHORS -->
 
-## 👥 Authors `<a name="authors"></a>`
+## 👥 Authors
 
 👤 **Author1**
 
@@ -138,9 +147,10 @@ You can deploy this project using:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
 <!-- FUTURE FEATURES -->
 
-## 🔭 Future Features `<a name="future-features"></a>`
+## 🔭 Future Features
 
 - **[Toolbar]**
 - **[My_Recent_Works]**
@@ -148,9 +158,10 @@ You can deploy this project using:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
 <!-- CONTRIBUTING -->
 
-## 🤝 Contributing `<a name="contributing"></a>`
+## 🤝 Contributing 
 
 Contributions, issues, and feature requests are welcome!
 
@@ -158,25 +169,28 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
 <!-- SUPPORT -->
 
-## ⭐️ Show your support `<a name="support"></a>`
+## ⭐️ Show your support 
 
 If you like this project gve it a star!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments `<a name="acknowledgements"></a>`
+## 🙏 Acknowledgments 
 
 I would like to thank Microverse and my partners for the experience
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
 <!-- FAQ (optional) -->
 
-## ❓ FAQ (OPTIONAL) `<a name="faq"></a>`
+## ❓ FAQ (OPTIONAL)
 
 - **[What_is_this_project_about?]**
 
