@@ -1,10 +1,3 @@
-/* body {
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  padding: 0;
-} */
-
 .toolbar {
   display: flex;
   flex-direction: row;
@@ -30,22 +23,14 @@
 .headline {
   display: flex;
   flex-direction: column;
-
-  /* align-items: center; */
-
-  /* justify-items: center; */
   max-height: 100vh;
   width: 375px;
-
-  /* border: 2px solid orangered; */
   padding: 120px 24px;
   gap: 12px;
   background: #1c1a19;
   background-image: url(./images/Back-Ground\ image\ 2.svg);
   background-repeat: no-repeat;
   background-size: auto;
-
-  /* background-attachment: fixed; */
   background-position: 91% 120%;
 }
 
@@ -58,19 +43,8 @@
   font-size: 56px;
   line-height: 64px;
   margin: 0;
-
-  /* border: 2px solid royalblue; */
-
-  /* or 114% */
-
   letter-spacing: 0.37px;
-
-  /* Theme 3 / Primary 1 */
-
   color: #ff6b00;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -85,20 +59,9 @@
   font-size: 24px;
   line-height: 32px;
   margin: 0;
-
-  /* border: 2px solid seagreen; */
-
-  /* or 133% */
-
   display: flex;
   align-items: center;
-
-  /* Theme 3 / Primary 4 */
-
   color: #fff5e1;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -108,30 +71,18 @@
   width: 327px;
   height: 123px;
   margin: 0;
-
-  /* Theme 1 / Body Reguler 2 */
-
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-
-  /* or 150% */
-
-  /* Theme 3 / Neutral 11 */
-
   color: #fff;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 2;
   flex-grow: 0;
 }
 
 .socials {
-  /* border: 2px solid yellowgreen; */
   display: flex;
   flex-direction: row;
   align-self: flex-start;
@@ -141,9 +92,6 @@
   margin: 0;
   width: 200px;
   height: 40px;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 3;
   flex-grow: 0;
