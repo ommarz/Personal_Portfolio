@@ -97,3 +97,73 @@
   flex-grow: 0;
   list-style: none;
 }
+
+.works {
+  display: grid;
+  grid-column: auto;
+}
+.project {
+  background-image: url(./images/Profesional\ Printing.svg);
+  background-repeat: no-repeat;
+}
+
+.project_link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fff5e1;
+  border-radius: 8px;
+  width: 327px;
+  height: 327px;
+  margin: 0;
+  padding: 0;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.about_me {
+  background-color: #1c1a19;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 375px;
+  flex: 1 1 375px;
+}
+
+.description1 {
+  width: 327px;
+  height: 123px;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.resume {
+  background-color: #ff6b00;
+  order: 2;
+}
+
+.language {
+  order: 3;
+  color: #fff;
+}
+
+.frameworks {
+  order: 4;
+  color: #fff;
+}
+
+.skills {
+  order: 5;
+  color: #fff;
+}
