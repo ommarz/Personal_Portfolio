@@ -1,9 +1,6 @@
-
 <h3><b>Personal Portfolio: Omar Gutierrez</b></h3>
 
-
 </div>
-
 
 <!-- TABLE OF CONTENTS -->
 
@@ -31,11 +28,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Personal_Portfolio] 
+# 📖 [Personal_Portfolio]
 
 **[Personal_Portfolio]** is a personal project to show my skills as a Software Developer
 
-## 🛠 Built With 
+## 🛠 Built With
 
 ### Tech Stack
 
@@ -46,14 +43,12 @@
   </ul>
 </details>
 
-
 <details>
   <summary>Server</summary>
   <ul>
     <li><a href=></a></li>
   </ul>
 </details>
-
 
 <details>
 <summary>Database</summary>
@@ -62,17 +57,15 @@
   </ul>
 </details>
 
-
 <!-- Features -->
 
-### Key Features `<a name="key-features"></a>`
+### Key Features
 
 - **[Toolbar]**
 - **[Headline_Section]**
 - **[Images]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- GETTING STARTED -->
 
@@ -131,9 +124,7 @@ You can deploy this project using:
   Any web browser
 ```
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- AUTHORS -->
 
@@ -147,7 +138,6 @@ You can deploy this project using:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features
@@ -158,10 +148,9 @@ You can deploy this project using:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- CONTRIBUTING -->
 
-## 🤝 Contributing 
+## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
@@ -169,24 +158,21 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- SUPPORT -->
 
-## ⭐️ Show your support 
+## ⭐️ Show your support
 
 If you like this project gve it a star!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments 
+## 🙏 Acknowledgments
 
 I would like to thank Microverse and my partners for the experience
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- FAQ (optional) -->
 
@@ -203,7 +189,7 @@ I would like to thank Microverse and my partners for the experience
 
 <!-- LICENSE -->
 
-## 📝 License `<a name="license"></a>`
+## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
 
