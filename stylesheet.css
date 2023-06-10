@@ -100,11 +100,61 @@
 
 .works {
   display: grid;
-  grid-column: auto;
+  grid-template-columns: 80%;
+  border: 1px solid yellowgreen;
+  justify-content: center;
 }
+
+.project1 {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  column-gap: 24px;
+}
+
+.project_title1 {
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  border: 2px solid fuchsia;
+}
+
+.project_description1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  justify-self: center;
+  border: 2px solid aqua;
+}
+.project_tools1 {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid blue;
+  align-self: center;
+  width: 327px;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.tool1 {
+  border: 1px solid #8993a4;
+}
+
 .project {
   background-image: url(./images/Profesional\ Printing.svg);
   background-repeat: no-repeat;
+  border: 2px greenyellow;
 }
 
 .project_link {
