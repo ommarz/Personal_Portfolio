@@ -169,6 +169,7 @@
 }
 
 .tool1 {
+  display: flex;
   border: 1px solid #8993a4;
   height: 40px;
   padding: 0 12px;
@@ -177,6 +178,7 @@
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
+  align-items: center;
 }
 
 .project_link1 {
