@@ -160,10 +160,9 @@
 
 .project_tools1 {
   list-style: none;
-  display: flex;
-  flex-direction: row;
-  align-items: space-between;
-  justify-content: space-between;
+  
+  
+  
   height: 40px;
   margin: 0;
   padding: 0 0;
@@ -174,7 +173,7 @@
 }
 
 .tool1 {
-  display: flex;
+  
   border: 1px solid #8993a4;
   height: 40px;
   padding: 0 12px;
@@ -183,7 +182,8 @@
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  align-items: center;
+  float: left;
+  margin: 5px;
 }
 
 .project_link1 {
