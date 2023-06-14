@@ -506,9 +506,11 @@ a {
   text-decoration: none;
   color: #fff;
 }
+
 form {
   width: 90%;
 }
+
 .name {
   width: 90%;
   border-top: none;
@@ -516,8 +518,8 @@ form {
   border-right: none;
   border-color: #dbd8d7;
   padding: 5%;
-  
 }
+
 .email {
   width: 90%;
   border-top: none;
@@ -527,6 +529,7 @@ form {
   margin-bottom: 10px;
   padding: 5%;
 }
+
 .message {
   width: 100%;
   border-top: none;
@@ -537,9 +540,9 @@ form {
   text-align: start;
   font-style: italic;
   background: #fbf8f7;
-  
 }
-.submit{
+
+.submit {
   width: 25 vw;
   display: flex;
   flex-direction: row;
@@ -559,19 +562,22 @@ form {
   justify-content: center;
   align-self: center;
 }
+
 .contact_form {
   display: flex;
   height: 50vh;
   flex-direction: column;
   justify-content: space-around;
 }
+
 .contact {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .contact_description {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -581,4 +587,28 @@ form {
   padding-left: 10vw;
   padding-right: 10vw;
   padding-top: 10vw;
+}
+
+hr {
+  width: 100%;
+  border: 1px solid #dfe1e6;
+  margin-top: 15vh;
+  margin-bottom: 10vh;
+}
+
+.socials_footer {
+  color: #505f79;
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  width: 200px;
+  height: 40px;
+  flex: none;
+  flex-grow: 0;
+  list-style: none;
+  border: 1px solid olivedrab;
 }
