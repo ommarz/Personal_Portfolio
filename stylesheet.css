@@ -617,3 +617,17 @@ hr {
   flex-grow: 0;
   list-style: none;
 }
+
+.submit:hover {
+  background-color: #fff5e1;
+  margin: 1px solid #f55800;
+}
+
+.submit:active {
+  background-color: #e05304;
+}
+
+.submit:disabled {
+  background-color: #f4f1f0;
+  color: #5b5857;
+}
