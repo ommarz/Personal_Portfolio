@@ -595,6 +595,7 @@ footer {
   align-items: center;
   margin-bottom: 10vh;
 }
+
 hr {
   width: 100%;
   border: 1px solid #dfe1e6;
@@ -603,7 +604,6 @@ hr {
 }
 
 .socials_footer {
-  
   display: flex;
   flex-direction: row;
   justify-self: center;
