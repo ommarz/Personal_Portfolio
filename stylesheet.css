@@ -857,6 +857,7 @@
     flex: 1;
     transition: transform 0.3s ease; /* smooth transition effect */
   }
+
   .arrow:hover {
     transform: scale(1.05); /* increase image size by 10% */
   }
@@ -1057,7 +1058,8 @@
   }
 
   #first {
-    background: linear-gradient(
+    background:
+      linear-gradient(
         179.35deg,
         rgba(38, 38, 38, 0) 0.85%,
         rgba(38, 38, 38, 0.9) 84%
@@ -1067,7 +1069,8 @@
   }
 
   #second {
-    background: linear-gradient(
+    background:
+      linear-gradient(
         179.35deg,
         rgba(38, 38, 38, 0) 0.85%,
         rgba(38, 38, 38, 0.9) 84%
@@ -1077,7 +1080,8 @@
   }
 
   #third {
-    background: linear-gradient(
+    background:
+      linear-gradient(
         179.35deg,
         rgba(38, 38, 38, 0) 0.85%,
         rgba(38, 38, 38, 0.9) 84%
@@ -1087,7 +1091,8 @@
   }
 
   #fourth {
-    background: linear-gradient(
+    background:
+      linear-gradient(
         179.35deg,
         rgba(38, 38, 38, 0) 0.85%,
         rgba(38, 38, 38, 0.9) 84%
@@ -1097,7 +1102,8 @@
   }
 
   #fifth {
-    background: linear-gradient(
+    background:
+      linear-gradient(
         179.35deg,
         rgba(38, 38, 38, 0) 0.85%,
         rgba(38, 38, 38, 0.9) 84%
@@ -1107,7 +1113,8 @@
   }
 
   #sixth {
-    background: linear-gradient(
+    background:
+      linear-gradient(
         179.35deg,
         rgba(38, 38, 38, 0) 0.85%,
         rgba(38, 38, 38, 0.9) 84%
@@ -1152,7 +1159,7 @@
   }
 
   .description1 {
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 2vh;
