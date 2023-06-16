@@ -17,20 +17,24 @@
 <body>
   <header class="toolbar">
     <a class="logo">Omar Gutierrez</a>
-    <nav class="hamburger">
-      <img src="./images/Hamburger.svg" alt="menu">
+    <nav class="nav_toolbar">
+      <img src="./images/Hamburger.svg" alt="menu" class="hamburger" >
       <ul class="nav-links">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Work</a></li>
-        <li><a href="#">Contact</a></li>
+        <li class="nav-li"><a href="#">About</a></li>
+        <li class="nav-li"><a href="#">Work</a></li>
+        <li class="nav-li"><a href="#">Contact</a></li>
+        <li class="nav-li"><a href="#"><img src="./images/mail_icon.svg" alt="mail" class="mail_icon"></a></li>
+      </ul>
     </nav>
   </header>
   <section class="headline">
-    <h1 class="greeting">Hey There. I'm Omar.</h1>
-    <h3 class="presentation">I'm a Software Developer</h3>
-    <p class="description">I will help you build a product, feature or website. Look through some of my work and
-      experience! If you like what you see and have a project you need coded, don't hesistate to contact me</p>
-    <ul class="socials">
+    <div class="content">
+      <h1 class="greeting">Hey There. I'm Omar.</h1>
+      <h3 class="presentation">I'm a Software Developer</h3>
+      <p class="description">I will help you build a product, feature or website. Look through some of my work and
+        experience! If you like what you see and have a project you need coded, don't hesistate to contact me</p>
+    </div>
+        <ul class="socials">
       <li><a href="https://github.com/ommarz" target="_blank" rel="noopener"><img src="./images/Disabled Github.svg"
             alt="github" class="social-icon"></img></a></li>
       <li><a href="https://www.linkedin.com/in/ommarz/" target="_blank" rel="noopener"><img
@@ -44,9 +48,13 @@
     </ul>
   </section>
   <section class="works">
-    <h1 class="works_title">My Recent Works</h2>
-      <div class="project1">
-        <img src="./images/Yoga.svg" alt="yoga pose" class="arrow"></img>
+    <div class="works_div">
+      <h1 class="works_title">My Recent Works</h2>
+      <hr class="works_break">
+    </div>  
+    <div class="project1">
+      <img src="./images/Yoga.svg" alt="yoga pose" class="arrow"></img>
+      <div class="project1_div">
         <h2 class="project_title1">Multi-Post Stories</h3>
           <p class="project_description1">A daily selection of privately personalized reads; no accounts or sign-ups
             required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
@@ -59,7 +67,9 @@
           </ul>
           <a href="#" rel="noopener" class="project_link1">See Project</a>
       </div>
-      <div class="project">
+     </div>
+    <div class="projects-container">
+      <div class="project" id="first">
         <h3 class="project_title">Profesional Art Printing Data</h3>
         <p class="project_description">A daily selection of privately personalized reads; no accounts or sign-ups
           required. Has been the industry's standard.</p>
@@ -70,7 +80,7 @@
         </ul>
         <a href="#" class="project_link" rel="noopener">See Project</a>
       </div>
-      <div class="project">
+      <div class="project" id="second">
         <h3 class="project_title">Profesional Art Printing Data</h3>
         <p class="project_description">A daily selection of privately personalized reads; no accounts or sign-ups
           required. Has been the industry's standard.</p>
@@ -81,7 +91,7 @@
         </ul>
         <a href="#" class="project_link" rel="noopener">See Project</a>
       </div>
-      <div class="project">
+      <div class="project" id="third">
         <h3 class="project_title">Profesional Art Printing Data</h3>
         <p class="project_description">A daily selection of privately personalized reads; no accounts or sign-ups
           required. Has been the industry's standard.</p>
@@ -92,7 +102,7 @@
         </ul>
         <a href="#" class="project_link" rel="noopener">See Project</a>
       </div>
-      <div class="project">
+      <div class="project" id="fourth">
         <h3 class="project_title">Profesional Art Printing Data</h3>
         <p class="project_description">A daily selection of privately personalized reads; no accounts or sign-ups
           required. Has been the industry's standard.</p>
@@ -103,7 +113,7 @@
         </ul>
         <a href="#" class="project_link" rel="noopener">See Project</a>
       </div>
-      <div class="project">
+      <div class="project" id="fifth">
         <h3 class="project_title">Profesional Art Printing Data</h3>
         <p class="project_description">A daily selection of privately personalized reads; no accounts or sign-ups
           required. Has been the industry's standard.</p>
@@ -114,7 +124,7 @@
         </ul>
         <a href="#" class="project_link" rel="noopener">See Project</a>
       </div>
-      <div class="project">
+      <div class="project" id="sixth">
         <h3 class="project_title">Profesional Art Printing Data</h3>
         <p class="project_description">A daily selection of privately personalized reads; no accounts or sign-ups
           required. Has been the industry's standard.</p>
@@ -125,6 +135,7 @@
         </ul>
         <a href="#" class="project_link" rel="noopener">See Project</a>
       </div>
+    </div>
   </section>
   <section class="about_me">
     <div class="about_me_intro">
@@ -134,6 +145,7 @@
         hesitate to contact me.</p>
       <a href="#" class="resume">Get my resume</a>
     </div>
+    <hr class="about_me_break">
     <ul class="list">
       <li class="language"><img src="./images/Rectangle 55.svg">Languages</li>
       <ul class="lang">
