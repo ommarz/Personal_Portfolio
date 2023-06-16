@@ -727,7 +727,7 @@
   }
 
   .greeting {
-    font-family: 'Crete Round', serif;
+    font-family: "Crete Round", serif;
     font-style: normal;
     font-weight: 400;
     font-size: 6vh;
@@ -742,7 +742,7 @@
   }
 
   .presentation {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 3vh;
@@ -758,7 +758,7 @@
   }
 
   .description {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 2vh;
@@ -815,7 +815,7 @@
   .works_title {
     width: 26vw;
     height: 10vh;
-    font-family: 'Crete Round', serif;
+    font-family: "Crete Round", serif;
     font-style: normal;
     font-weight: 400;
     font-size: 3.5vh;
@@ -848,12 +848,17 @@
     width: 35vw;
     height: 40vh;
     padding-left: 2vw;
+    overflow: hidden;
   }
 
   .arrow {
     display: flex;
     justify-self: flex-start;
     flex: 1;
+    transition: transform 0.3s ease; /* smooth transition effect */
+  }
+  .arrow:hover {
+    transform: scale(1.05); /* increase image size by 10% */
   }
 
   .project_title1 {
@@ -861,7 +866,7 @@
     order: 0;
     margin-bottom: 2vh;
     margin-top: 0;
-    font-family: 'Crete Round', serif;
+    font-family: "Crete Round", serif;
     font-style: normal;
     font-weight: 400;
     font-size: 4vh;
@@ -875,7 +880,7 @@
 
   .project_description1 {
     margin-top: 0;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.8vh;
@@ -967,7 +972,7 @@
   .project_title {
     display: flex;
     order: 0;
-    font-family: 'Crete Round', serif;
+    font-family: "Crete Round", serif;
     font-style: normal;
     font-weight: 400;
     font-size: 3vh;
@@ -985,7 +990,7 @@
     order: 1;
     margin-left: 1vw;
     color: #fff;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 2vh;
@@ -1015,7 +1020,7 @@
     border: 1px solid black;
     padding: 1vh 0.5vh 1vh 0.5vh;
     margin-right: 2vw;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 2vh;
@@ -1052,32 +1057,62 @@
   }
 
   #first {
-    background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url("images/Project-background1.svg");
+    background: linear-gradient(
+        179.35deg,
+        rgba(38, 38, 38, 0) 0.85%,
+        rgba(38, 38, 38, 0.9) 84%
+      ),
+      url("images/Project-background1.svg");
     background-size: cover;
   }
 
   #second {
-    background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url("images/Project-background2.svg");
+    background: linear-gradient(
+        179.35deg,
+        rgba(38, 38, 38, 0) 0.85%,
+        rgba(38, 38, 38, 0.9) 84%
+      ),
+      url("images/Project-background2.svg");
     background-size: cover;
   }
 
   #third {
-    background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url("images/Project-background3.svg");
+    background: linear-gradient(
+        179.35deg,
+        rgba(38, 38, 38, 0) 0.85%,
+        rgba(38, 38, 38, 0.9) 84%
+      ),
+      url("images/Project-background3.svg");
     background-size: cover;
   }
 
   #fourth {
-    background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url("images/Project-background1.svg");
+    background: linear-gradient(
+        179.35deg,
+        rgba(38, 38, 38, 0) 0.85%,
+        rgba(38, 38, 38, 0.9) 84%
+      ),
+      url("images/Project-background1.svg");
     background-size: cover;
   }
 
   #fifth {
-    background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url("images/Project-background2.svg");
+    background: linear-gradient(
+        179.35deg,
+        rgba(38, 38, 38, 0) 0.85%,
+        rgba(38, 38, 38, 0.9) 84%
+      ),
+      url("images/Project-background2.svg");
     background-size: cover;
   }
 
   #sixth {
-    background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url("images/Project-background3.svg");
+    background: linear-gradient(
+        179.35deg,
+        rgba(38, 38, 38, 0) 0.85%,
+        rgba(38, 38, 38, 0.9) 84%
+      ),
+      url("images/Project-background3.svg");
     background-size: cover;
   }
 
@@ -1098,11 +1133,12 @@
     min-height: 50vh;
     border: 1px solid wheat;
     margin: 10vh 0 0 5vh;
+    overflow: hidden;
   }
 
   .about_me_title {
     display: flex;
-    font-family: 'Crete Round', serif;
+    font-family: "Crete Round", serif;
     font-style: normal;
     font-weight: 400;
     font-size: 8vh;
@@ -1116,7 +1152,7 @@
   }
 
   .description1 {
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 400;
     font-size: 2vh;
@@ -1147,11 +1183,13 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: #fff;
+    transition: transform 0.3s ease; /* smooth transition effect */
   }
 
   .resume:hover {
     background: #fff5e1;
     color: #ff6b00;
+    transform: scale(1.1); /* increase image size by 10% */
   }
 
   .resume:active {
