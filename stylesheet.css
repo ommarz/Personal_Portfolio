@@ -1092,12 +1092,15 @@
   .about_me_intro {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     width: 100vw;
     min-height: 50vh;
-    border: 1px solid wheat;
     margin: 10vh 0 0 5vh;
+    background-image: url(images/Background_about_me_dv.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 55vh;
   }
 
   .about_me_title {
@@ -1105,14 +1108,13 @@
     font-family: 'Crete Round', serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 8vh;
-    line-height: 9vh;
+    font-size: 7vh;
+    line-height: 8 vh;
     color: #f55800;
     flex: none;
     order: 0;
     flex-grow: 0;
     margin-bottom: 0;
-    border: 1px solid darkorange;
   }
 
   .description1 {
@@ -1136,14 +1138,14 @@
     align-items: center;
     justify-content: center;
     align-self: flex-start;
-    width: 156px;
-    height: 48px;
+    width: 15vw;
+    height: 4vh;
     margin-top: 1vh;
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 17px;
-    line-height: 24px;
+    font-size: 1.5vh;
+    line-height: 2vh;
     text-align: center;
     letter-spacing: 0.03em;
     color: #fff;
@@ -1163,4 +1165,35 @@
     border: 1px solid #fff;
     width: 80vw;
   }
+
+  .list {
+    display: flex;
+    align-self: center;
+    list-style: none;
+    border: 1px solid skyblue;
+    width: 90vw;
+    height: 50vh;
+    color: white;
+  }
+
+  .languages {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid yellow;
+    width: 30vw;
+  }
+
+  .lang {
+    list-style: none;
+  }
+
+  .frameworks {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid yellow;
+    width: 30vw;
+  }
+
 }
