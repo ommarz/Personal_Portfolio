@@ -799,6 +799,7 @@
     flex-direction: column;
     align-items: center;
     width: 100vw;
+    margin: 10vh 0;
   }
 
   .works_div {
@@ -950,7 +951,6 @@
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 2vh;
-    border: 1px solid fuchsia;
     width: 90vw;
     justify-content: space-between;
   }
@@ -961,7 +961,6 @@
     width: 28vw;
     min-height: 50vh;
     margin-bottom: 2vh;
-    border: 1px solid skyblue;
     justify-content: flex-end;
   }
 
@@ -1014,7 +1013,7 @@
     background-color: rgba(255, 255, 255, 0.24);
     color: #fff;
     border: 1px solid black;
-    padding: 0.5vh;
+    padding: 1vh 0.5vh 1vh 0.5vh;
     margin-right: 2vw;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -1080,5 +1079,88 @@
   #sixth {
     background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url("images/Project-background3.svg");
     background-size: cover;
+  }
+
+  .about_me {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    background-color: #262626;
+    min-height: 60vh;
+  }
+
+  .about_me_intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100vw;
+    min-height: 50vh;
+    border: 1px solid wheat;
+    margin: 10vh 0 0 5vh;
+  }
+
+  .about_me_title {
+    display: flex;
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8vh;
+    line-height: 9vh;
+    color: #f55800;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-bottom: 0;
+    border: 1px solid darkorange;
+  }
+
+  .description1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vh;
+    line-height: 3vh;
+    color: #f4f5f7;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    max-width: 50vw;
+  }
+
+  .resume {
+    background-color: #ff6b00;
+    order: 2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+    width: 156px;
+    height: 48px;
+    margin-top: 1vh;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #fff;
+  }
+
+  .resume:hover {
+    background: #fff5e1;
+    color: #ff6b00;
+  }
+
+  .resume:active {
+    background: #ff6b00;
+    color: #fff5e1;
+  }
+
+  .about_me_break {
+    border: 1px solid #fff;
+    width: 80vw;
   }
 }
