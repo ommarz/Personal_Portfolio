@@ -4,21 +4,11 @@
     flex-direction: row;
     background: #3c3a39;
     color: white;
-    height: 92px;
-    width: 375px;
+    height: 15vh;
+    width: 100vw;
     justify-content: space-between;
-    padding: 0 24px;
-    flex: 1;
-  }
-
-  .logo {
-    align-self: flex-end;
-    padding-bottom: 5vh;
-  }
-
-  .hamburger {
-    align-self: flex-end;
-    padding-bottom: 20px;
+    padding: 0 5vw;
+    align-items: center;
   }
 
   .mail_icon {
@@ -32,15 +22,15 @@
   .headline {
     display: flex;
     flex-direction: column;
-    max-height: 100vh;
-    width: 375px;
-    padding: 120px 24px;
+    min-height: 85vh;
+    width: 100vw;
+    padding: 10vh 5vw;
     gap: 12px;
     background: #1c1a19;
     background-image: url(./images/Back-Ground\ image\ 2.svg);
     background-repeat: no-repeat;
     background-size: auto;
-    background-position: 91% 120%;
+    background-position: 94% 90%;
   }
 
   .greeting {
@@ -51,7 +41,7 @@
     font-weight: 400;
     font-size: 56px;
     line-height: 64px;
-    margin: 0;
+    margin: 0 0 2vh 0;
     letter-spacing: 0.37px;
     color: #ff6b00;
     flex: none;
@@ -67,7 +57,7 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
-    margin: 0;
+    margin: 0 0 3vh 0;
     display: flex;
     align-items: center;
     color: #fff5e1;
@@ -79,7 +69,7 @@
   .description {
     width: 327px;
     height: 123px;
-    margin: 0;
+    margin: 0 0 3vh 0;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -112,7 +102,7 @@
     grid-template-columns: 100vw;
     grid-template-rows: 1fr auto auto auto auto auto auto auto;
     row-gap: 5vh;
-    margin-top: 20vh;
+    margin-top: 10vh;
   }
 
   .works_title {
@@ -524,13 +514,12 @@
     width: 90%;
   }
 
-  .name {
+  .first-name {
     width: 90%;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-color: #dbd8d7;
+    border: none;
+    border-bottom: #dbd8d7;
     padding: 5%;
+    outline: none;
   }
 
   .email {
@@ -581,6 +570,10 @@
     height: 50vh;
     flex-direction: column;
     justify-content: space-around;
+  }
+
+  .last-name {
+    display: none;
   }
 
   .contact {
@@ -686,12 +679,13 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: fit-content;
+    width: 30vw;
     margin: 0;
     padding: 0;
     height: max-content;
     list-style: none;
     color: white;
+    justify-content: space-around;
   }
 
   a {
@@ -853,7 +847,7 @@
   .arrow {
     display: flex;
     justify-self: flex-start;
-    flex: 1;
+    flex: 0.7;
   }
 
   .project_title1 {
@@ -1092,12 +1086,15 @@
   .about_me_intro {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     width: 100vw;
     min-height: 50vh;
-    border: 1px solid wheat;
     margin: 10vh 0 0 5vh;
+    background-image: url(images/Background_about_me_dv.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 55vh;
   }
 
   .about_me_title {
@@ -1105,18 +1102,17 @@
     font-family: 'Crete Round', serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 8vh;
-    line-height: 9vh;
+    font-size: 7vh;
+    line-height: 8 vh;
     color: #f55800;
     flex: none;
     order: 0;
     flex-grow: 0;
     margin-bottom: 0;
-    border: 1px solid darkorange;
   }
 
   .description1 {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 2vh;
@@ -1136,14 +1132,14 @@
     align-items: center;
     justify-content: center;
     align-self: flex-start;
-    width: 156px;
-    height: 48px;
+    width: 15vw;
+    height: 4vh;
     margin-top: 1vh;
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 17px;
-    line-height: 24px;
+    font-size: 1.5vh;
+    line-height: 2vh;
     text-align: center;
     letter-spacing: 0.03em;
     color: #fff;
@@ -1162,5 +1158,196 @@
   .about_me_break {
     border: 1px solid #fff;
     width: 80vw;
+  }
+
+  .about_me_skills {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: flex-start;
+    width: 90vw;
+    min-height: 30vh;
+  }
+
+  .list {
+    display: flex;
+    width: 30vw;
+    min-height: 35vh;
+    color: white;
+    list-style-type: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.5vh;
+    line-height: 5vh;
+    align-items: flex-start;
+    padding: 0;
+    justify-content: center;
+  }
+
+  .main-li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    flex: 0;
+    align-items: center;
+    padding: 0;
+  }
+
+  .second-ul {
+    list-style: none;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5vh;
+    line-height: 6vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30vw;
+  }
+
+  #languages {
+    list-style-image: url(images/Rectangle_55.svg);
+  }
+
+  #frameworks {
+    list-style-image: url("images/Rectangle_56.svg");
+    list-style-position: inside;
+  }
+
+  #skills {
+    list-style-image: url("images/Rectangle_57.svg");
+    list-style-position: inside;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    background-color: #fff;
+    min-height: 60vh;
+  }
+
+  .contact_description {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5vh;
+    line-height: 5vh;
+    max-width: 30vw;
+    margin-left: 5vw;
+    align-items: center;
+    color: #262626;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .contact_form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 50vw;
+    height: 60vh;
+    margin: 0 0 0 5vw;
+    padding-left: 5vw;
+  }
+
+  .name {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 40vw;
+    height: 5vh;
+    margin: 0;
+    padding-left: 0;
+    border: none;
+  }
+
+  .first-name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 15vw;
+    height: 4vh;
+    border: none;
+    border-bottom: 1px solid #dbd8d7;
+    outline: none;
+    padding-left: 0;
+  }
+
+  .last-name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 20vw;
+    height: 4vh;
+    border: none;
+    border-bottom: 1px solid #dbd8d7;
+    outline: none;
+    margin-left: 2vw;
+  }
+
+  .email {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    width: 40vw;
+    height: 4vh;
+    border: none;
+    border-bottom: 1px solid #dbd8d7;
+    outline: none;
+    margin-bottom: 2vh;
+  }
+
+  .message {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    width: 40vw;
+    height: 10vh;
+    border: none;
+    background-color: #fbf8f7;
+    outline: none;
+    margin-bottom: 2vh;
+  }
+
+  #submit {
+    display: flex;
+    justify-self: flex-start;
+  }
+
+  .footer-break {
+    width: 99vw;
+    border-color: 0.2vh solid #dfe1e6;
+    margin: 0 0 0 0;
+  }
+
+  footer {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: fff;
+  }
+
+  .socials_footer {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40vw;
+    height: 10vh;
   }
 }

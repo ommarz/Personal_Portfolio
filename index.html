@@ -146,43 +146,55 @@
       <a href="#" class="resume">Get my resume</a>
     </div>
     <hr class="about_me_break">
-    <ul class="list">
-      <li class="language"><img src="./images/Rectangle 55.svg">Languages</li>
-      <ul class="lang">
-        <li class="li_lang">Javascript</li>
-        <li class="li_lang">Ruby</li>
-        <li class="li_lang">HTML</li>
-        <li class="li_lang">CSS</li>
+    <div class="about_me_skills">
+      <ul class="list" id="languages"> 
+        <li class="main-li">Languages
+          <ul class="second-ul">
+            <li class="last-li">Javascript</li>
+            <li class="last-li">Ruby</li>
+            <li class="last-li">HTML</li>
+            <li class="last-li">CSS</li>
+          </ul>
+        </li>
       </ul>
-      <li class="frameworks"><img src="./images/Rectangle 56.svg">Frameworks</li>
-      <ul class="framewk">
-        <li class="li_framewk">React.js</li>
-        <li class="li_framewk">Ruby on Rails</li>
-        <li class="li_framewk">RSpec</li>
-        <li class="li_framewk">Capybara</li>
+      <ul class="list" id="frameworks">
+        <li class="main-li">Frameworks
+          <ul class="second-ul">
+            <li class="last-li">React.js</li>
+            <li class="last-li">Ruby on Rails</li>
+            <li class="last-li">RSpec</li>
+            <li class="last-li">Capybara</li>
+          </ul>
+        </li>
       </ul>
-      <li class="skills"><img src="./images/Rectangle 57.svg">Skills</li>
-      <ul class="sk">
-        <li class="li_skills">Database Management</li>
-        <li class="li_skills">Version Control</li>
-        <li class="li_skills">CLI</li>
-        <li class="li_skills">API Design</li>
-        <li class="li_skills">Web Development</li>
+      <ul class="list" id="skills">
+        <li class="main-li">Skills
+          <ul class="second-ul">
+            <li class="last-li">Database Management</li>
+            <li class="last-li">Version Control</li>
+            <li class="last-li">CLI</li>
+            <li class="last-li">API Design</li>
+            <li class="last-li">Web Development</li>
+          </ul>
+        </li>
       </ul>
-    </ul>
+    </div>
   </section>
   <section class="contact">
     <p class="contact_description">I'm always interested in hearing about new projects, so if you'd like to chat please
       get in touch.</p>
     <form class="contact_form" action="https://formspree.io/f/xqkoreon" method="POST">
-      <input type="text" class="name" placeholder="Full name" maxlength="30" required>
-      <input type="email" class="email" placeholder="Email address" required>
-      <textarea class="message" placeholder="Write me something..." maxlength="500" required></textarea>
-      <input type="submit" class="submit" value="Get in touch">
+      <fieldset class="name">
+        <input type="text" class="first-name" placeholder="Name" maxlength="30" required>
+        <input type="text" class="last-name" placeholder="Last Name" maxlength="50" required>
+      </fieldset>
+        <input type="email" class="email" placeholder="Email address" required>
+      <textarea class="message" placeholder="Write me something..." maxlength="500" row="10" column="50" required></textarea>
+      <input type="submit" class="resume" id="submit" value="Get in touch">
     </form>
   </section>
+  <hr class="footer-break">
   <footer class="footer">  
-    <hr>
     <ul class="socials_footer">
       <li><a href="https://github.com/ommarz" target="_blank" rel="noopener"><img src="./images/Github_footer_disabled.svg" alt="github" class="social-icon-footer"></img></a></li>
       <li><a href="https://www.linkedin.com/in/ommarz/" target="_blank" rel="noopener"><img src="./images/Linkedin_footer_disabled.svg" alt="linkedin" class="social-icon-footer"></img></a></li>
