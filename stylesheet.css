@@ -1133,6 +1133,10 @@
     width: 100vw;
     min-height: 50vh;
     margin: 10vh 0 0 5vh;
+    background-image: url("./images/Background_about_me_dv.svg");
+    background-repeat: no-repeat;
+    background-size: 50vw;
+    background-position: 100% 100%;
   }
 
   .about_me_title {
