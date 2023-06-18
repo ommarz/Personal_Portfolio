@@ -39,7 +39,9 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href=></a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics">CSS</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics">Javascript</a></li>
   </ul>
 </details>
 
